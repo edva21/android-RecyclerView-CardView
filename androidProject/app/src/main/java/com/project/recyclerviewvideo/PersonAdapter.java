@@ -56,7 +56,7 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.ViewHolder
         public ViewHolder(@NonNull View itemView){
             super(itemView);
             tvName = itemView.findViewById(R.id.tvName);
-            tvName = itemView.findViewById(R.id.tvSurname);
+            tvSurname = itemView.findViewById(R.id.tvSurname);
             ivPref = itemView.findViewById(R.id.ivPref);
 
             itemView.setOnClickListener(new View.OnClickListener(){
